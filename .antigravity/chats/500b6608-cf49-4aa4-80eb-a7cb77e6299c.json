@@ -52,6 +52,30 @@
       "created_at": "2026-09-20T06:37:44.143Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "d2729a44-c455-4049-ae4e-032ad6ccea8b",
+      "role": "user",
+      "content": "How are you ?",
+      "status": "pending",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-09-20T06:43:26.793Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "40704a5a-7919-4b34-bb5f-33f2c8f71df3",
+      "role": "agent",
+      "content": "I’m doing well, thank you! How can I assist you today?",
+      "status": "completed",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "d2729a44-c455-4049-ae4e-032ad6ccea8b",
+      "created_at": "2026-09-20T06:43:30.889Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
