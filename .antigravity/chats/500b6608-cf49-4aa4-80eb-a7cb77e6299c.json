@@ -136,6 +136,18 @@
       "created_at": "2026-09-20T07:07:09.451Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "bf2fecd6-d79e-4c4f-8b92-57e034bd8fd3",
+      "role": "agent",
+      "content": "Glad to hear you like it! Let me know if you need anything else.",
+      "status": "completed",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "2caec4b5-1fe0-48d9-9621-abc9ed252aab",
+      "created_at": "2026-09-20T07:07:13.726Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
