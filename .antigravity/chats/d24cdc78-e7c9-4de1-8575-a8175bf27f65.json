@@ -28,6 +28,30 @@
       "created_at": "2026-09-20T06:14:07.943Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "1150dc66-f6b8-4e03-a1cc-4d81a1b4f0ee",
+      "role": "user",
+      "content": "Hello",
+      "status": "pending",
+      "model": "auto",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-09-20T06:14:17.156Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "a7dad538-6464-4c01-8d38-799fb8a6fde6",
+      "role": "agent",
+      "content": "The agent started on a machine in a place Google doesn't serve, so it couldn't answer.\nSend your message again — the next one usually starts somewhere else.",
+      "status": "error",
+      "model": "auto",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "1150dc66-f6b8-4e03-a1cc-4d81a1b4f0ee",
+      "created_at": "2026-09-20T06:14:20.606Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
