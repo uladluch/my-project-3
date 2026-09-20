@@ -76,6 +76,54 @@
       "created_at": "2026-09-20T06:43:30.889Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "ceb5d17a-f79b-4952-9691-4bb84fa0434d",
+      "role": "user",
+      "content": "Create for me simple gtml with hello cloud",
+      "status": "pending",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-09-20T06:46:06.035Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "8ec84f01-fc43-4f6f-9488-c508bcb63b20",
+      "role": "agent",
+      "content": "Google's servers are busy right now, so the agent couldn't answer.\nSend your message again in a moment — or pick another model in the app, which usually goes through straight away.",
+      "status": "error",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "ceb5d17a-f79b-4952-9691-4bb84fa0434d",
+      "created_at": "2026-09-20T06:46:09.464Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "bbdd16b5-ba65-441e-ab53-1bf759058286",
+      "role": "user",
+      "content": "Create for me simple gtml with hello cloud",
+      "status": "pending",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-09-20T06:46:12.827Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "ae9d8ac3-8296-4cf4-87fe-4c4ae38f8680",
+      "role": "agent",
+      "content": "The HTML file has been created.\n\nYou can view it here:\n\n[hello.html](file:///home/agent/workspace/hello.html)",
+      "status": "completed",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "bbdd16b5-ba65-441e-ab53-1bf759058286",
+      "created_at": "2026-09-20T06:46:23.538Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
