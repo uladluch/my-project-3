@@ -352,6 +352,30 @@
       "created_at": "2026-09-20T09:30:15.767Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "41b0d741-1cb5-4af1-991c-2b4ebd2af133",
+      "role": "agent",
+      "content": "Google's servers are busy right now, so the agent couldn't answer.\nSend your message again in a moment — or pick another model in the app, which usually goes through straight away.",
+      "status": "error",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "eef5de1e-07d3-4b73-be91-4cb951688fb1",
+      "created_at": "2026-09-20T09:30:20.186Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "9190b016-b041-458a-87c1-57746ac80083",
+      "role": "user",
+      "content": "Давай закомитим и загрузим все это дело на гитхаб",
+      "status": "pending",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-09-20T09:30:23.701Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
