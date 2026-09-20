@@ -328,6 +328,30 @@
       "created_at": "2026-09-20T09:29:37.856Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "53252b9b-8c2c-4c73-ba94-85b96e405d15",
+      "role": "agent",
+      "content": "Here’s the full content of **hello.html** in your workspace:\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Hello Cloud</title>\n</head>\n<body>\n    <h1>Hello Cloud</h1>\n</body>\n</html>\n```\n\nLet me know if you’d like to view or edit any other files!",
+      "status": "completed",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "28aa13b6-2c57-414f-99c9-ef179c884903",
+      "created_at": "2026-09-20T09:29:48.485Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "eef5de1e-07d3-4b73-be91-4cb951688fb1",
+      "role": "user",
+      "content": "Давай закомитим и загрузим все это дело на гитхаб",
+      "status": "pending",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-09-20T09:30:15.767Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
