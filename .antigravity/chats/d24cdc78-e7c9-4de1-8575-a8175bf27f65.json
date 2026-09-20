@@ -112,6 +112,18 @@
       "created_at": "2026-09-20T06:22:48.945Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "5694c65b-2d6d-4a7c-ac24-8f0b170029f5",
+      "role": "user",
+      "content": "Could you create simple html page hello claude",
+      "status": "pending",
+      "model": "gpt-oss-120b-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-09-20T06:23:32.404Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
